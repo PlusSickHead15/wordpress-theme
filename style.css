@@ -988,3 +988,9 @@ object {
 	width: 50%;
 	padding: 10px;
   }
+.right {
+	position: absolute;
+	right: 0px;
+	width: 300px;
+	padding: 10px;
+  }
