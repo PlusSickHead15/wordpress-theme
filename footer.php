@@ -12,7 +12,8 @@
 ?>
 
 	</div><!-- #content -->
-
+	<link rel="style" href="style.css">
+	<div class="footer">
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'chriss-theme' ) ); ?>">
@@ -34,3 +35,4 @@
 
 </body>
 </html>
+</div>
