@@ -995,7 +995,7 @@ object {
 	padding: 10px;
   }
   .footer {
-	position: absolute;
+	position: fixed;
 	left: 10px;
 	bottom: 10px;
 	width: 100%;
