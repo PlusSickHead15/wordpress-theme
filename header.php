@@ -16,11 +16,12 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-
+	<link rel="style" href="style.css">
 	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
+<div class="center">
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'chriss-theme' ); ?></a>
 
@@ -56,3 +57,4 @@
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
+	</div>
