@@ -996,8 +996,8 @@ object {
   }
   .footer {
 	position: absolute;
-	left: 0;
-	bottom: 0;
+	left: 10px;
+	bottom: 10px;
 	width: 100%;
 	color: black;
 	text-align: left;
