@@ -21,7 +21,6 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div class="center">
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'chriss-theme' ); ?></a>
 
@@ -57,4 +56,3 @@
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
-	</div>
