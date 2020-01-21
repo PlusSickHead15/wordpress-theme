@@ -835,15 +835,6 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
-
-.content-area {
-	position: absolute;
-	float: left;
-	width: 70%;
-    margin-left: 10px;
-  }
-
-
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
@@ -999,11 +990,11 @@ object {
   }
 .right {
 	position: absolute;
-	float: left;
-	width: 20%;
-    margin-left: 10px;
+	right: 0px;
+	width: 300px;
+	padding: 10px;
   }
-.footer {
+  .footer {
 	position: fixed;
 	left: 10px;
 	bottom: 10px;
