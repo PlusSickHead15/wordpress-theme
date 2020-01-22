@@ -1031,7 +1031,7 @@ object {
 }
 
 .site-header a:hover{
-    color: rgba(37, 58, 117, 0.808);
+    color: rgba(79, 16, 131, 0.966);
 }
 
 .main-navigation{
@@ -1085,7 +1085,7 @@ float: left;
 }
 
 .site-footer{
-    background-color: rgb(77, 6, 6);
+    background-color: rgba(159, 63, 236, 0.966);
     color: white;
     padding-left: 30px;
     text-align: center;
