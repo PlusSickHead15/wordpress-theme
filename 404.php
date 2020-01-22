@@ -12,7 +12,7 @@ get_header();
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-		<img src="/var/www/html/cgroce84/wordpress/wp-content/themes/wordpress-theme/image/IMG-2126.jpg" >
+		<img src="/var/www/html/cgroce84/wordpress/wp-content/themes/wordpress-theme/image/51t2fdiFreL._UX679_.jpg" >
 			<section class="error-404 not-found">
 				<header class="page-header">
 					<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'chriss-theme' ); ?></h1>
