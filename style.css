@@ -1006,6 +1006,9 @@ object {
  
  
  
+
+
+
  
  body{
 
@@ -1101,6 +1104,6 @@ float: left;
 .site-main{
 
     box-align: center;
-    padding-left: 650px;
+    padding-left: 550px;
     padding-top: 100px;
 }
