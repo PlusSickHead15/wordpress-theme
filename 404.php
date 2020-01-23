@@ -14,7 +14,7 @@ get_header();
 		<main id="main" class="site-main">
 			<section class="error-404 not-found">
 				<header class="page-header">
-					<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'chriss-theme' ); ?></h1>
+					<h1 class="page-title"><?php esc_html_e( 'WOW! That sucks doesnt it just wanna make you....', 'chriss-theme' ); ?></h1>
 				</header><!-- .page-header -->
 				<img src="/cgroce84/wordpress/wp-content/themes/wordpress-theme/assets/IMG-2126.jpg">
 				<div class="page-content">
