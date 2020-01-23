@@ -12,12 +12,11 @@ get_header();
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-		<img src="/cgroce84/wordpress/wp-content/themes/wordpress-theme/assets/IMG-2126.jpg">
 			<section class="error-404 not-found">
 				<header class="page-header">
 					<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'chriss-theme' ); ?></h1>
 				</header><!-- .page-header -->
-
+				<img src="/cgroce84/wordpress/wp-content/themes/wordpress-theme/assets/IMG-2126.jpg">
 				<div class="page-content">
 					<p><?php esc_html_e( 'It looks like nothing was found up in dis bish', 'chriss-theme' ); ?></p>
 
