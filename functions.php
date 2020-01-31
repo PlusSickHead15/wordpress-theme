@@ -104,7 +104,7 @@ function chriss_theme_content_width() {
 	// phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
 	$GLOBALS['content_width'] = apply_filters( 'chriss_theme_content_width', 640 );
 }
-add_action( 'after_setup_theme', 'chriss_killer_theme_content_width', 0 );
+add_action( 'after_setup_theme', 'chriss_theme_content_width', 0 );
 
 /**
  * Register widget area.
