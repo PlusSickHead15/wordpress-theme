@@ -79,14 +79,13 @@ if ( ! function_exists( 'chriss_killer_theme_setup' ) ) :
 			'flex-width'  => true,
 			'flex-height' => true,
 		) );
-		add_theme_support( 'custom-header',
-        $args = array(
-            'flex-width'    => true,
-            'width'         => 1200,
+		add_theme_support('custom-header', apply_filters('chris_theme_custom_header_args', array(
+            'default-image'  => '',
+            'default-text-color'   => '000000',
+            'width'    => 1333,
+            'height'   => 250,
             'flex-height'   => true,
-            'height'        => 200,
-            'default-image' => get_template_directory_uri() . '/images/header.jpg',
-        ));
+        )));
 	}
 endif;
 add_action( 'after_setup_theme', 'chriss_killer_theme_setup', 'chriss_killer_theme_custom_header_setup');
